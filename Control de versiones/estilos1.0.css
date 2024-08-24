@@ -1,0 +1,93 @@
+
+/* Inicializacion */
+
+* {
+    border:  0;
+    margin:  0;
+    padding: 0;
+}
+
+    /* BORRAR!!!!! */
+    * {
+        color: white;
+    }
+
+/* Importaciones */
+
+
+
+
+
+
+
+
+
+/* Elementos HTML */
+
+body {
+    background-image: url("../media/img/background.png");
+    height: 100vh;
+    width: 100%;
+}
+
+header {
+    background-color:  red;
+    height: 100px;
+    width: 100%;
+}
+
+aside {
+    background-color:  blue;
+    height: 800px;
+    min-width: 200px;
+    width: 12%;
+}
+
+main {
+    background-color:  rgb(255, 159, 14); 
+    height: 800px;
+    min-width: 600px;
+    width: 88%;
+}
+
+
+
+
+/* Clases */
+
+
+
+
+
+
+
+
+/* Identificadores */
+
+#contenido-actual {
+    background-color: brown;
+    height: 50px;
+    width: 100%;
+}
+
+#contenido-principal {
+    display: flex;
+}
+
+#contenedor-tarjetas {
+    background-color: rgb(128, 165, 42);
+    height: 700px;
+    width: 100%;    
+}
+
+#seccion-btn {
+    background-color: rgb(59, 197, 202);
+    height: 200px;
+    width: 100%;   
+}
+
+#seccion-menu {
+    background-color: rgb(109, 59, 202);
+    height: 300px;
+    width: 100%;  
+}

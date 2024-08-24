@@ -1,0 +1,20 @@
+Ponerle un icono a ordenacion de flecha
+
+la flecha girara al pulsar (javascript)
+
+
+            <form action='crear.php' method='get' name='formulario' class='formulario-creacion'>
+                <label for='cod_grupo'>Código de grupo</label>
+                <input type='text' name='cod_grupo' id='cod_grupo'>
+                <label for='nombre'>Nombre</label>
+                <input type='text' name='nombre' id='nombre' maxlength='50'>
+                <label for='nacionalidad'>Nacionalidad</label>
+                <input type='text' name='nacionalidad' id='nacionalidad' maxlength='35'>
+                <label for='biografia'>Biografia</label>
+                <textarea name='biografia' id='biografia' cols='30' rows='10' maxlength='500'></textarea>
+                <label for='foto'>Foto</label>
+                <input type='file' name='archivo_fls' id='foto'>
+            
+                <input type='submit' value='Crear grupo' name='crear'>
+                <input type='reset' value='Limpiar'>
+            </form>
